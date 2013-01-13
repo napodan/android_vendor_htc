@@ -21,7 +21,30 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/htc/shooter/proprietary/libv8.so:obj/lib/libv8.so
-    
+
+# Firmware blobs
+PRODUCT_COPY_FILES += \
+    vendor/htc/shooter/proprietary/firmware/modem.b00:/system/vendor/firmware/modem.b00 \
+    vendor/htc/shooter/proprietary/firmware/modem.b01:/system/vendor/firmware/modem.b01 \
+    vendor/htc/shooter/proprietary/firmware/modem.b02:/system/vendor/firmware/modem.b02 \
+    vendor/htc/shooter/proprietary/firmware/modem.b03:/system/vendor/firmware/modem.b03 \
+    vendor/htc/shooter/proprietary/firmware/modem.b04:/system/vendor/firmware/modem.b04 \
+    vendor/htc/shooter/proprietary/firmware/modem.b05:/system/vendor/firmware/modem.b05 \
+    vendor/htc/shooter/proprietary/firmware/modem.b06:/system/vendor/firmware/modem.b06 \
+    vendor/htc/shooter/proprietary/firmware/modem.b07:/system/vendor/firmware/modem.b07 \
+    vendor/htc/shooter/proprietary/firmware/modem.b08:/system/vendor/firmware/modem.b08 \
+    vendor/htc/shooter/proprietary/firmware/modem.b09:/system/vendor/firmware/modem.b09 \
+    vendor/htc/shooter/proprietary/firmware/modem.mdt:/system/vendor/firmware/modem.mdt \
+    vendor/htc/shooter/proprietary/firmware/q6.b00:/system/vendor/firmware/q6.b00 \
+    vendor/htc/shooter/proprietary/firmware/q6.b01:/system/vendor/firmware/q6.b01 \
+    vendor/htc/shooter/proprietary/firmware/q6.b02:/system/vendor/firmware/q6.b02 \
+    vendor/htc/shooter/proprietary/firmware/q6.b03:/system/vendor/firmware/q6.b03 \
+    vendor/htc/shooter/proprietary/firmware/q6.b04:/system/vendor/firmware/q6.b04 \
+    vendor/htc/shooter/proprietary/firmware/q6.b05:/system/vendor/firmware/q6.b05 \
+    vendor/htc/shooter/proprietary/firmware/q6.b06:/system/vendor/firmware/q6.b06 \
+    vendor/htc/shooter/proprietary/firmware/q6.b07:/system/vendor/firmware/q6.b07 \
+    vendor/htc/shooter/proprietary/firmware/q6.mdt:/system/vendor/firmware/q6.mdt
+
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/charging:/system/bin/charging \
@@ -64,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/shooter/proprietary/libmmjpeg2.so:/system/lib/libmmjpeg2.so \
     vendor/htc/shooter/proprietary/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
-    vendor/htc/shooter/proprietary/libmm-omxcore.so:/system/lib/libmm-omxcore.so \
     vendor/htc/shooter/proprietary/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/libmllite.so:/system/lib/libmllite.so \
     vendor/htc/shooter/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
@@ -72,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/shooter/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
-    vendor/htc/shooter/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
     vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/libqc-opt.so:/system/lib/libqc-opt.so \
@@ -82,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/shooter/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/shooter/proprietary/camera.default.so:/system/lib/hw/camera.default.so \
-    vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/shooter/proprietary/rmt_storage:/system/bin/rmt_storage \
