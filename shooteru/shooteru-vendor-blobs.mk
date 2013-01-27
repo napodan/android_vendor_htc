@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/htc/shooteru/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/shooteru/proprietary/libv8.so:system/lib/libv8.so \
-    vendor/htc/shooteru/proprietary/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
     vendor/htc/shooteru/proprietary/libmpl.so:system/lib/libmpl.so \
     vendor/htc/shooteru/proprietary/libmllite.so:system/lib/libmllite.so \
     vendor/htc/shooteru/proprietary/libmlplatform.so:system/lib/libmlplatform.so \
@@ -105,6 +104,29 @@ PRODUCT_COPY_FILES +=  \
     vendor/htc/shooteru/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/htc/shooteru/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/shooteru/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+
+# Firmwares
+PRODUCT_COPY_FILES += \
+    vendor/htc/shooteru/proprietary/firmware/modem.b00:/system/vendor/firmware/modem.b00 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b01:/system/vendor/firmware/modem.b01 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b02:/system/vendor/firmware/modem.b02 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b03:/system/vendor/firmware/modem.b03 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b04:/system/vendor/firmware/modem.b04 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b05:/system/vendor/firmware/modem.b05 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b06:/system/vendor/firmware/modem.b06 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b07:/system/vendor/firmware/modem.b07 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b08:/system/vendor/firmware/modem.b08 \
+    vendor/htc/shooteru/proprietary/firmware/modem.b09:/system/vendor/firmware/modem.b09 \
+    vendor/htc/shooteru/proprietary/firmware/modem.mdt:/system/vendor/firmware/modem.mdt \
+    vendor/htc/shooteru/proprietary/firmware/q6.b00:/system/vendor/firmware/q6.b00 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b01:/system/vendor/firmware/q6.b01 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b02:/system/vendor/firmware/q6.b02 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b03:/system/vendor/firmware/q6.b03 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b04:/system/vendor/firmware/q6.b04 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b05:/system/vendor/firmware/q6.b05 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b06:/system/vendor/firmware/q6.b06 \
+    vendor/htc/shooteru/proprietary/firmware/q6.b07:/system/vendor/firmware/q6.b07 \
+    vendor/htc/shooteru/proprietary/firmware/q6.mdt:/system/vendor/firmware/q6.mdt
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
