@@ -16,10 +16,7 @@
 
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
-    LiveWallpapers \
     LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
     librs_jni
 
 # Pick up overlay for features that depend on non-open-source files
